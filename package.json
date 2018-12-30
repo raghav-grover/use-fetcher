@@ -1,6 +1,6 @@
 {
   "name": "use-fetcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An abortable React Hook for using fetch supporting Error handling, timeouts, deserialisations, time logging and re-fetching based on `props`",
   "keywords": [
     "react",
