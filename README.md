@@ -12,15 +12,15 @@ import {useFetcher} from 'use-fetcher';
 function GitHubUsers(props) {
   const initialState = {};
   const options = {
-    method: "POST", //Defaults to GET
-    body: {"say":"hello"}, // Defaults to {}, won't work with GET
+    method: "GET", //Defaults to GET
+    body: {"say":"hello"}, // Defaults to {}, won't work with GET(will be ignored)
     timeout: 1000, // Defaults to 3000ms
     headers: {}, // Defaults to {}
     returnRawFetchResponse:true, //Defaults to false
     runWhenSpecificPropsChanges: [props.reFetchWhenThisPropChanges],// Defaults to []
   }
   const { data, success, abort, error, timeTaken } = useFetcher(
-    "https://jsonplaceholder.typicode.com/todos/1",
+    "https://api.github.com/users",
     initialState,
     options
   );
