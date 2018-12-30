@@ -1,0 +1,34 @@
+{
+  "name": "use-fetcher",
+  "version": "1.0.0",
+  "description": "An abortable React Hook for using fetch supporting Error handling, timeouts, deserialisations, time logging and re-fetching based on `props`",
+  "keywords": [
+    "react",
+    "fetch",
+    "hook",
+    "hooks",
+    "react hook",
+    "react hooks",
+    "react 16",
+    "react new features"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "react": ">=16.7.0-alpha.0"
+  },
+  "devDependencies": {
+    "rollup": "^0.66.6",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0"
+  },
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "index.js.map",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "prepublish": "rollup -c -m"
+  }
+}
