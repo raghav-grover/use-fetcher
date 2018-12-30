@@ -41,6 +41,7 @@ The body and the headers can be passed to fetch using `body` and `headers` in `o
 The `options` doesn't need to be passed necessarily, a merge is performed with what is passed and the default values.
 
 
-
-
+## Acknowledgements
+  - Hat tip to anyone who uses and contributes to the code....
+  - React Hooks Docs
 
