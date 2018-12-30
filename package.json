@@ -12,6 +12,17 @@
     "react 16",
     "react new features"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:raghav-grover/use-fetcher.git"
+  },
+  "author":"Raghav Grover",
+  "license": "MIT",
+  "bugs":{
+    "url":"https://github.com/raghav-grover/use-fetcher/issues",
+    "email": "raghavgrover43@gmail.com"
+  },
+  "homepage": "https://github.com/raghav-grover/use-fetcher#readme",
   "main": "index.js",
   "peerDependencies": {
     "react": ">=16.7.0-alpha.0"
